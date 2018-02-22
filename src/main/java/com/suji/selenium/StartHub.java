@@ -28,6 +28,10 @@ public class StartHub {
 
     public static void main(String[] args) throws Exception {
         GridLauncherV3.main(new String[] { "-role", "hub", "-port", "4445" });
+        
+        
+        
+        Thread.sleep(10);
     }
 
 }
